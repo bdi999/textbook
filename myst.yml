@@ -1,0 +1,26 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: eac76668-4e83-4e73-95b6-0bcc12e7d620
+  title: BDI 999
+  description: BDI 999 Online Textbook
+  keywords:
+    - bdi999
+    - data analytics
+    - business analytics
+    - jupyter-book
+  toc:
+    - file: content/index.md
+    - title: Credit Card Transactions
+      children:
+        - file: content/credit-card-transactions/case-overview.md
+  # keywords: []
+  # authors: []
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  options:
+    #   favicon: favicon.ico
+    #   logo: site_logo.png
+    style: media/custom.css
