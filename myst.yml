@@ -22,5 +22,6 @@ site:
   template: book-theme
   options:
     #   favicon: favicon.ico
-    #   logo: site_logo.png
+    logo: site_images/bdi-new-logo.svg
+    logo_dark: site_images/bdi-new-logo.svg
     style: media/custom.css
