@@ -24,4 +24,5 @@ site:
     #   favicon: favicon.ico
     logo: site_images/bdi-new-logo.svg
     logo_dark: site_images/bdi-new-logo.svg
+    favicon: site_images/favicon.svg
     style: media/custom.css

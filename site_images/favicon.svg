@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <!-- Main gradient with a brighter white core at bottom-right -->
+    <radialGradient id="g1" cx="115" cy="115" r="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"  stop-color="#ffffff"/>
+      <stop offset="15%" stop-color="#d5eef1"/>
+      <stop offset="35%" stop-color="#64bec5"/>
+      <stop offset="60%" stop-color="#0a6b86"/>
+      <stop offset="80%" stop-color="#003757"/>
+      <stop offset="100%" stop-color="#00253f"/>
+    </radialGradient>
+
+    <!-- Top-left vignette for subtle depth -->
+    <radialGradient id="g2" cx="10" cy="10" r="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#001a2c" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#001a2c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="64" cy="64" r="60" fill="url(#g1)"/>
+  <circle cx="64" cy="64" r="60" fill="url(#g2)"/>
+</svg>
