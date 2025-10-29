@@ -11,9 +11,15 @@ project:
     - jupyter-book
   toc:
     - file: content/index.md
+    - title: Amazon On-time Delivery
+      children:
+        - file: content/amazon-delivery/case-overview.md
     - title: Credit Card Transactions
       children:
         - file: content/credit-card-transactions/case-overview.md
+    - title: Instacart
+      children:
+        - file: content/instacart/blog-post.md
   # keywords: []
   # authors: []
   # github:
