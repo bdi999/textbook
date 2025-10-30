@@ -1,31 +1,43 @@
 # BDI 999 - Advanced Analytics Applications in Business
 
-Online Textbook
+- University of Illinois Urbana-Champaign
+- **Instructor**: Ye Joo Park ([ypark32@illinois.edu](mailto:ypark32@illinois.edu))
 
-University of Illinois Urbana-Champaign
+This course is designed to build upon the data analytics foundations from BDI 475: Introduction to Data Analytics Applications in Business. The goal is to equip you with advanced skills in business analytics, focusing on solving real-world challenges in business analytics:
 
-This comprehensive course is designed to build upon the data analytics foundations from BDI 475: Introduction to Data Analytics Applications in Business. The goal is to equip students with advanced skills in business analytics, focusing on solving real-world challenges in business analytics – (1) handling large-scale data, (2) performing sophisticated analyses using techniques used in the industry, and (3) creating impactful visualizations. The course will cover a wide range of topics, from data retrieval/manipulation and machine learning to cloud computing and interactive dashboard.
+1. handling large-scale data,
+2. performing sophisticated analyses using techniques used in the industry
+3. creating impactful visualizations.
+
+```{image} ../site_images/favicon.svg
+:alt: BDI 999 Circle
+:width: 320px
+:align: center
+```
+
+&nbsp;
 
 ## Overview
 
-The course is structured to provide a hands-on, practical approach to advanced business analytics. Students will work with real-world datasets, tackle complex business problems, and develop solutions using state-of-the-art tools and methodologies (e.g., pre-trained machine learning models). The curriculum is divided into several key areas:
+The course is structured to provide a hands-on approach to advanced business analytics. You will work with real-world datasets, tackle complex business problems, and develop solutions using state-of-the-art tools and methodologies (e.g., pre-trained machine learning models). The course materials are divided into several key areas:
 
 1. Loading and Cleaning Data with Python
 2. Large-Scale Data Processing
-3. Data Retrieval and real-time analysis using SQL
-4. Natural Language Processing and Text Analytics
-5. Interactive Data Visualization
-6. Cloud Computing for Business Analytics
-7. Applied Machine Learning Projects
+3. Real-world Prediction and Classification
+4. Data Retrieval and Real-time Analysis using SQL
+5. Natural Language Processing and Text Analytics
+6. Interactive Data Visualization
+7. Cloud Computing for Business Analytics
+8. Applied Machine Learning Projects
 
-Throughout the course, students will engage in practical exercises, case studies, and a final project that simulates real-world business analytics challenges.
+Throughout the course, you will engage in lots of exercises, case studies, and a final project that simulates real-world business analytics challenges.
 
 ## Learning Objectives
 
-By the end of this course, students will be able to:
+By the end of this course, you will be able to:
 
 - define key terms and concepts related to large-scale business analytics using tools such as Python and pandas
-- explain how Modin and DuckDB enhance data processing performance compared to traditional pandas workflows
+- explain how Polars and DuckDB enhance data processing performance compared to traditional pandas workflows
 - apply SQL queries in PostgreSQL to extract, filter, and join data from relational databases
 - analyze business scenarios by performing complex data manipulations and statistical modeling in Python using pandas and industry techniques
 - evaluate the clarity and impact of visualizations created with Plotly and Tableau Desktop for communicating business insights
@@ -40,7 +52,7 @@ By the end of this course, students will be able to:
 
 2. Handle Large-Scale Datasets
 
-- Perform out-of-memory operations using Modin, Polars, or Vaex
+- Perform out-of-memory operations using Polars
 - Execute ETL processes on datasets larger than 10 GB
 - Apply various sampling techniques (random, stratified) for large datasets
 

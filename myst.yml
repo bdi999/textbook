@@ -11,9 +11,11 @@ project:
     - jupyter-book
   toc:
     - file: content/index.md
+    - file: content/grammar-of-graphics.md
     - title: Amazon On-time Delivery
       children:
         - file: content/amazon-delivery/case-overview.md
+        - file: content/amazon-delivery/eda.ipynb
     - title: Credit Card Transactions
       children:
         - file: content/credit-card-transactions/case-overview.md
@@ -28,7 +30,7 @@ site:
   template: book-theme
   options:
     #   favicon: favicon.ico
-    logo: site_images/bdi-new-logo.svg
-    logo_dark: site_images/bdi-new-logo.svg
+    logo: site_images/bdi-new-logo-with-margin.svg
+    logo_dark: site_images/bdi-new-logo-with-margin.svg
     favicon: site_images/favicon.svg
     style: media/custom.css
